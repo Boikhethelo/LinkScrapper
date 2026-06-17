@@ -1,2 +1,4 @@
 .env
 .venv
+*:Zone.Identifier
+*.Zone.Identifier
