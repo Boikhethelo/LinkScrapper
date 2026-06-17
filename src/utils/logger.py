@@ -1,3 +1,7 @@
+"""
+Configures Loguru and sends messages to the console and a log file
+"""
+
 import sys
 from loguru import logger
 

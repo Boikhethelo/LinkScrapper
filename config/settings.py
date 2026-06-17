@@ -1,3 +1,5 @@
+
+
 import os
 from dotenv import load_dotenv
 
@@ -33,7 +35,7 @@ class Settings:
 
     MIN_DELAY: float = float(os.getenv("MIN_DELAY", "3.0"))
     MAX_DELAY: float = float(os.getenv("MAX_DELAY" , "8.0"))
-    MAX_RETRIES: int = float(os.getenv("MAX_RETRIES" , "3"))
+    MAX_RETRIES: int = int(os.getenv("MAX_RETRIES" , "3"))
 
 
     # ================================================
